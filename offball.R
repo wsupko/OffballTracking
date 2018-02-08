@@ -32,11 +32,14 @@ CJ.table <- function(X,Y){
 Imp.Tracking <- fread('./data/in/Imp.Tracking.txt')
 Imp.Event <- fread('./data/in/Imp.Event.txt')
 
+    
+
 #### 1.2 Manual data ####
 
 #### 2. Data wrangling ####
 
-
+Proc.Tracking <- merge(Imp.Tracking, Imp.Event[, .(EventNo, Player, x_m, y_m, EventType, EventResult)], 
+                       by = c('EventNo', 'Player'), all.x = T)
 
 #### 3. Modelling ####
 

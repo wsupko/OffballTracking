@@ -1,6 +1,6 @@
-Event No	Video Second	Player	PlayerTo	Event Type	Event Result	Time (s)	Clock (s)	Touches	Frames	x	y	x (m)	y (m)	x End	y End	x End (m)	y End (m)	Distance (m)	Speed (s)	Event Result Ni	xPressure
-1	7	Olivier Giroud	Mesut Ã–zil	Pass	Successful	0.4	0.4	1	5	49.6	50.5	52.1	34.4	49.0	53.2	51.5	36.1	1.9	4.7	1	0.05
-2	7	Mesut Ã–zil	Santiago Cazorla	Pass	Successful	1.1	1.5	1	13	49.0	53.2	51.5	36.1	39.5	44.7	41.4	30.4	11.6	10.5	1	0.05
+EventNo	Video Second	Player	PlayerTo	EventType	EventResult	sTime	sClock	Touches	Frames	x	y	x_m	y_m	x_End	y_End	x_End_m	y_End_m	mDistance	sSpeed	EventResultNi	xPressure
+1	7	Olivier Giroud	Mesut Özil	Pass	Successful	0.4	0.4	1	5	49.6	50.5	52.1	34.4	49.0	53.2	51.5	36.1	1.9	4.7	1	0.05
+2	7	Mesut Özil	Santiago Cazorla	Pass	Successful	1.1	1.5	1	13	49.0	53.2	51.5	36.1	39.5	44.7	41.4	30.4	11.6	10.5	1	0.05
 3	9	Santiago Cazorla		Control	Successful	0.7	2.2	1	8	39.5	44.7	41.4	30.4	39.5	44.7	41.4	30.4	0.0	0.0	1	0.2
 4	9	Santiago Cazorla	Francis Coquelin	Pass	Successful	0.8	3	1	10	39.5	44.7	41.4	30.4	38.8	65.5	40.7	44.6	14.2	17.7	1	0.2
 5	10	Francis Coquelin	Gabriel	Pass	Successful	1.5	4.5	1	18	38.8	65.5	40.7	44.6	27.1	71.3	28.5	48.5	12.8	8.5	1	0.2
@@ -13,7 +13,7 @@ Event No	Video Second	Player	PlayerTo	Event Type	Event Result	Time (s)	Clock (s)
 12	23	Dejan Lovren	Emre Can	Pass	Successful	1.9	17.9	1	23	48.8	45.5	51.2	31.0	40.9	38.7	42.9	26.3	9.5	5.0	1	0.1125
 13	25	Emre Can	Dejan Lovren	Pass	Successful	1.4	19.3	1	17	40.9	38.7	42.9	26.3	53.2	32.6	55.9	22.2	13.6	9.7	1	0.1625
 14	26	Dejan Lovren		Pass	Unsuccessful	1.9	21.2	1	23	53.2	32.6	55.9	22.2	38.0	17.6	39.9	12.0	18.9	10.0	0	0.375
-15	28	HÃ©ctor BellerÃ­n	Aaron Ramsey	Pass	Successful	1.1	22.3	1	13	38.0	17.6	39.9	12.0	47.5	20.8	49.9	14.1	10.2	9.2	1	0.05
+15	28	Héctor Bellerín	Aaron Ramsey	Pass	Successful	1.1	22.3	1	13	38.0	17.6	39.9	12.0	47.5	20.8	49.9	14.1	10.2	9.2	1	0.05
 16	30	Aaron Ramsey		Control	Successful	1	23.3	1	12	47.5	20.8	49.9	14.1	52.5	25.0	55.1	17.0	6.0	6.0	1	0.125
 17	30	Aaron Ramsey	Olivier Giroud	Pass	Successful	1.8	25.1	1	22	52.5	25.0	55.1	17.0	66.4	11.1	69.8	7.5	17.4	9.7	1	0.2875
 18	33	Olivier Giroud		Control	Successful	1.6	26.7	1	19	66.4	11.1	69.8	7.5	71.6	16.8	75.2	11.5	6.7	4.2	1	0.525
@@ -23,8 +23,8 @@ Event No	Video Second	Player	PlayerTo	Event Type	Event Result	Time (s)	Clock (s)
 22	39	Roberto Firmino	Emre Can	Pass	Successful	1.6	33.6	1	19	64.3	58.4	67.5	39.7	57.0	35.3	59.8	24.0	17.5	11.0	1	0.6
 23	40	Emre Can		Pass	Unsuccessful	1.6	35.2	1	19	57.0	35.3	59.8	24.0	56.4	37.4	59.3	25.4	1.5	1.0	0	0.4375
 24	42	Olivier Giroud	Santiago Cazorla	Pass	Successful	1.5	36.7	1	18	56.4	37.4	59.3	25.4	51.6	38.7	54.2	26.3	5.1	3.4	1	0.3375
-25	44	Santiago Cazorla	Mesut Ã–zil	Pass	Successful	1.3	38	1	16	51.6	38.7	54.2	26.3	60.4	33.7	63.4	22.9	9.8	7.5	1	0.4375
-26	45	Mesut Ã–zil	Olivier Giroud	Pass	Successful	1	39	1	12	60.4	33.7	63.4	22.9	61.3	50.8	64.3	34.5	11.7	11.7	1	0.7375
+25	44	Santiago Cazorla	Mesut Özil	Pass	Successful	1.3	38	1	16	51.6	38.7	54.2	26.3	60.4	33.7	63.4	22.9	9.8	7.5	1	0.4375
+26	45	Mesut Özil	Olivier Giroud	Pass	Successful	1	39	1	12	60.4	33.7	63.4	22.9	61.3	50.8	64.3	34.5	11.7	11.7	1	0.7375
 27	46	Olivier Giroud		Control	Unsuccessful	1.6	40.6	1	19	61.3	50.8	64.3	34.5	66.3	50.5	69.6	34.4	5.3	3.3	0	0.4125
 28	47	James Milner		Tackle	Successful	1.5	42.1	1	18	66.3	50.5	69.6	34.4	71.6	42.1	75.2	28.6	8.0	5.4	1	1
 29	48	James Milner	Joseph Gomez	Pass	Successful	1.5	43.6	1	18	71.6	42.1	75.2	28.6	67.0	22.6	70.3	15.4	14.1	9.4	1	0.6
